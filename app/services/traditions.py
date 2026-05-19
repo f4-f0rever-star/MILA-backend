@@ -58,7 +58,7 @@ TRADITIONS = {
         }
     ],
 
-"   angola": [
+    "angola": [
         {
             "title": "The Legend of Kianda",
             "type": "Folklore",
@@ -681,7 +681,7 @@ TRADITIONS = {
         }
     ],
 
-    "republic_of_the_congo": [
+    "republic of the congo": [
         {
             "title": "The Legend of the Sacred Congo River Serpent",
             "type": "Myth",
@@ -853,7 +853,7 @@ TRADITIONS = {
         }
     ],
 
-    "equatorial_guinea": [  
+    "equatorial guinea": [  
         {
             "title": "The Spirit of the Island Fires",
             "type": "Folklore", 
@@ -1263,7 +1263,7 @@ TRADITIONS = {
         }
     ],
 
-    "guinea_bissau": [
+    "guinea bissau": [
         {
             "title": "The Spirit of the Bijagós Islands",
             "type": "Myth",
@@ -1312,7 +1312,7 @@ TRADITIONS = {
         }
     ],
 
-    "ivory_coast": [
+    "ivory coast": [
         {
             "title": "The Epic of Queen Pokou and the Baoulé Migration",
             "type": "Legend",
@@ -2107,7 +2107,7 @@ TRADITIONS = {
         }
     ],
 
-    "sao_tome_and_principe": [
+    "sao tome and principe": [
         {
             "title": "The Legend of the First Fishermen of the Islands",
             "type": "Legend",
@@ -2257,7 +2257,7 @@ TRADITIONS = {
         }
     ],
 
-    "sierra_leone": [
+    "sierra leone": [
         {
             "title": "The Story of Bai Bureh and the Resistance of the North",
             "type": "Legend",
@@ -2357,7 +2357,7 @@ TRADITIONS = {
         }
     ],
 
-    "south_africa": [
+    "south africa": [
         {
             "title": "The Legend of Shaka Zulu and the Rise of the Zulu Kingdom",
             "type": "Legend",   
@@ -2407,7 +2407,7 @@ TRADITIONS = {
         }
     ],
 
-    "south_sudan": [
+    "south sudan": [
         {
             "title": "The Legend of Nyikang and the Founding of the Shilluk Kingdom",
             "type": "Legend",
@@ -4208,7 +4208,7 @@ TRADITIONS = {
         }
     ],
 
-    "north_korea": [    
+    "north korea": [    
         {
             "title": "The Legend of Dangun and the Founding of Gojoseon",
             "type": "Legend",
@@ -4508,7 +4508,7 @@ TRADITIONS = {
         }
     ],
 
-    "saudi_arabia": [
+    "saudi arabia": [
         {
             "title": "The Legend of the Zamzam Well and the Story of Hajar and Ismail",
             "type": "Legend",   
@@ -4608,7 +4608,7 @@ TRADITIONS = {
         }
     ],
 
-    "south_korea": [
+    "south korea": [
         {
             "title": "The Legend of Dangun and the Founding of Gojoseon",
             "type": "Legend",
@@ -4658,7 +4658,7 @@ TRADITIONS = {
         }
     ],
 
-    "sri_lanka": [
+    "sri lanka": [
         {
             "title": "The Legend of Prince Vijaya and the Founding of Sri Lanka",
             "type": "Legend",
@@ -4908,7 +4908,7 @@ TRADITIONS = {
         }   
     ],
 
-    "timor_leste": [    
+    "timor leste": [    
         {       
             "title": "The Legend of the Crocodile Island (Origins of Timor)",
             "type": "Legend",
@@ -5058,7 +5058,7 @@ TRADITIONS = {
         }
     ],  
 
-    "united_arab_emirates": [   
+    "united arab emirates": [   
         {
             "title": "The Legend of the Pearl Divers of the Trucial Coast",
             "type": "Legend",
@@ -7003,7 +7003,7 @@ TRADITIONS = {
         }
     ],
 
-    "san_marino": [
+    "san marino": [
         {
             "title": "The Legend of Saint Marinus and the Founding of San Marino",
             "type": "Legend",
@@ -7453,7 +7453,7 @@ TRADITIONS = {
         }
     ],
 
-    "vatican_city": [
+    "vatican city": [
         {
             "title": "The Legend of Saint Peter and the Founding of the Papacy",
             "type": "Legend",
@@ -7504,7 +7504,7 @@ TRADITIONS = {
     ],
 
     # AMERICA
-    "antigua_and_barbuda": [
+    "antigua and barbuda": [
         {
             "title": "The Legend of the Sleeping Giant of Antigua",
             "type": "Myth",
@@ -8004,7 +8004,7 @@ TRADITIONS = {
         }
     ],
 
-    "costa_rica": [
+    "costa rica": [
         {
             "title": "The Legend of La Cegua, the Horse-Riding Spirit",
             "type": "Myth",
@@ -8154,7 +8154,7 @@ TRADITIONS = {
         }
     ],
 
-    "dominican_republic": [
+    "dominican republic": [
         {
             "title": "The Legend of Anacaona, the Golden Flower Queen",
             "type": "Myth",
@@ -8254,7 +8254,7 @@ TRADITIONS = {
         }
     ],
 
-    "el_salvador": [
+    "el salvador": [
         {   
             "title": "The Legend of the Cadejo, the Spirit Dogs",
             "type": "Myth",
@@ -9054,7 +9054,7 @@ TRADITIONS = {
         }
     ],
 
-    "trinidad_and_tobago": [    
+    "trinidad and tobago": [    
         {
             "title": "The Legend of Papa Bois, Guardian of the Forest",
             "type": "Myth",
@@ -9104,7 +9104,7 @@ TRADITIONS = {
         }
     ],
 
-    "united_states": [
+    "united states": [
         {
             "title": "The Legend of Bigfoot, the Forest Wanderer",
             "type": "Myth",
@@ -9959,6 +9959,3 @@ TRADITIONS = {
 
 }
 
-
-def get_heritage_by_country(country_name):
-    return TRADITIONS.get(country_name.lower(), [])
