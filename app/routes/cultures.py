@@ -28,7 +28,7 @@ def list_cultures():
         {"id": "equatorial guinea", "name": "Equatorial Guinea", "continent": "Africa"},
         {"id": "eritrea", "name": "Eritrea", "continent": "Africa"},
         {"id": "eswatini", "name": "Eswatini", "continent": "Africa"},
-        {"id": "ethopia", "name": "Ethopia", "continent": "Africa"},
+        {"id": "ethiopia", "name": "Ethiopia", "continent": "Africa"},
         {"id": "gabon", "name": "Gabon", "continent": "Africa"},
         {"id": "gambia", "name": "Gambia", "continent": "Africa"},
         {"id": "ghana", "name": "Ghana", "continent": "Africa"},
@@ -223,7 +223,7 @@ def get_culture(culture_id):
 
     return jsonify({
         "culture_id": culture_id,
-        "name": "Kenya",
+        "name": "Culture",
         "food": food_data,
         "country": country_data,
         "art": art_data,
