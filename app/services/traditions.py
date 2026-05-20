@@ -9959,3 +9959,5 @@ TRADITIONS = {
 
 }
 
+def get_heritage_by_country(country_name):
+    return TRADITIONS.get(country_name.lower(), [])

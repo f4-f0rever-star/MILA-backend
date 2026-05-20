@@ -223,7 +223,7 @@ def get_culture(culture_id):
 
     return jsonify({
         "culture_id": culture_id,
-        "name": "Kenya",
+        "name": "Culture",
         "food": food_data,
         "country": country_data,
         "art": art_data,
